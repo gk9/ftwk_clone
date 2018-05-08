@@ -1,0 +1,136 @@
+@import '../../css/variables.css';
+
+.footer {
+  position: relative;
+  width: 100%;
+  z-index: 50;
+  background-color: #19191e;
+  padding: 100px 0;
+  transform: translate3d(0, 0, 0);
+}
+
+.footer .footer_row, .footer .footer_links {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.footer .footer_row {
+  transition-delay: 0.5s;
+}
+
+.footer .footer_links {
+  transition-delay: 0.7s;
+}
+
+.footer.preload .footer_row, .footer.preload .footer_links {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.footer_row {
+  display: flex;
+  position: relative;
+}
+
+.footer_block {
+  width: calc(var(--gridL) * 8);
+  padding-right: var(--gridL);
+  font-size: 1.125rem;
+  line-height: 2rem;
+  display: inline-block;
+}
+
+.footer_block.footer_top {
+  width: auto;
+  position: absolute;
+  right: 0;
+  padding-right: 0;
+  text-align: right;
+}
+
+.footer_links {
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  position: relative;
+  padding: 2rem 0 0;
+}
+
+.footer_links>div:first-child {
+  position: absolute;
+  right: 0;
+}
+
+.footer_links>div * {
+  display: inline;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+}
+
+.footer_links>div:last-child a {
+  margin-right: 20px;
+}
+
+.footer_links>div:first-child a {
+  margin-left: 20px;
+}
+
+@media(--small) {
+	.footer_links > div {
+		display: flex;
+		flex-direction: column;
+		&:first-child {
+			position: relative;
+			right: auto;
+		}
+		&:last-child {
+			position: absolute;
+			right: 0;
+			text-align: right;
+		}
+	}
+  .footer_links > div:first-child a {
+		margin: 0 0 20px;
+	}
+  .footer_links > div:last-child  a {
+	  margin: 0 0 20px;
+	}
+  .footer {
+    padding: 50px 0;
+  }
+  .footer_row {
+    flex-direction: column;
+  }
+  .footer_block {
+    width: 100%;
+    padding: 0 0 2rem;
+    &:first-child, &:first-child + div {
+      order: 2;
+    }
+    &:last-child {
+      order: 2;
+      position: relative;
+      right: auto;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+      /*line-height: 0;
+      height: 0;
+      max-width: 360px;*/
+    }
+  }
+  .footer_top a {
+    display: block;
+  }
+}
+
+.icon-pdf {
+  height: 13px;
+  width: 10px;
+}
+.icon-pdf use {
+  fill: var(--ftwkYellow);
+}
+.pipe {
+  padding: 0 1rem;
+}

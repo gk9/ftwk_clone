@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+
+  <div class="main_container off">
+    <div class="top_bar">
+      <div class="gradient"></div>
+      <div class="container">
+        <%= require('html-loader!../components/FtwkLogo/FtwkLogo.html') %>
+        <%= require('html-loader!../components/Navigation/Navigation.html') %>
+      </div>
+    </div>
+    <div id="barba-wrapper">
+      <div class="barba-container not_found" data-namespace="not_found">
+        <div class="main_content">
+          <div class="container c404">
+            <img src="src/img/not_found.gif" alt="not found">
+            <p>Woaahhh how did you land here?<br>
+            Don't despair, just click on the logo or the navigation above and you'll surely find that sweet bamboo :)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%= require('html-loader!../components/Footer/Footer.html') %>
+    <%= require('html-loader!../components/Overlays/Overlays.html') %>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body style="opacity:0; background-color:#19181e;">
+
+  <div class="main_container off">
+    <div class="top_bar">
+      <div class="gradient"></div>
+      <div class="container">
+        <%= require('html-loader!../components/FtwkLogo/FtwkLogo.html') %>
+        <%= require('html-loader!../components/Navigation/Navigation.html') %>
+      </div>
+    </div>
+    <div id="barba-wrapper">
+      <div class="barba-container home" data-namespace="homepage">
+        <div class="bg"></div>
+        <div class="main_content">
+          <div class="container">
+            <div class="claim"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%= require('html-loader!../components/Footer/Footer.html') %>
+    <%= require('html-loader!../components/Overlays/Overlays.html') %>
+  </div>
+
+</body>
+
+</html>

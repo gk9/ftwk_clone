@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+
+
+  <div class="main_container">
+    <div class="top_bar">
+      <div class="gradient"></div>
+      <div class="container">
+        <%= require('html-loader!../components/FtwkLogo/FtwkLogo.html') %>
+          <%= require('html-loader!../components/Navigation/Navigation.html') %>
+      </div>
+    </div>
+    <div id="barba-wrapper">
+      <div class="barba-container" data-namespace="cs_simapp">
+        <div class="main_content">
+          <div class="cs_bg simapp"></div>
+          <div class="container c_thin">
+            <div class="cs_top">
+              <div class="cs_tags">
+                <div>Innovation Consulting</div>
+                <div>agile product development</div>
+                <div>UX Research & Design</div>
+                <div>iOS & Backend Development</div>
+              </div>
+              <h1>SIMAPP: Empowering sales & marketing teams of a global diagnostics provider</h1>
+            </div>
+            <div class="cs_block">
+              <h3>Challenge</h3>
+              <p>For B·R·A·H·M·S Biomarkers, an entity of leading biotech company Thermo Fisher Scientific, FTWK developed an iPad sales app to support sales and marketing teams in getting out their messages in a more targeted and efficient way while always
+                remaining compliant and up-to-date.</p>
+              <p>The client was initially looking to transform from their printed sales brochures and marketing materials to a simple PDF viewer app. The app was aimed to work as a personalised communication and information tool for their sales reps, allowing
+                them to be more efficient and enhance sales conversations with their customers.</p>
+            </div>
+          </div>
+          <div class="container c_mid cs_media">
+            <img src="../src/img/case_study/simapp/simapp-mockup-01.jpg" alt="SIMAPP iPad App Design">
+          </div>
+          <div class="container c_thin">
+            <div class="cs_block">
+              <h3>Approach</h3>
+              <p>After the initial kickoff and briefing with the client, we conducted comprehensive research interviews and surveys with both sales and marketing teams. During the research, we discovered that sales reps needed in fact more flexibility to
+                tailor their presentations to individual customers’ needs, while marketing teams had to make sure that any information communicated was always up-to-date and within the narrow constraints of compliance regulations.</p>
+              <p>For the marketing team, we set up a full backend that allows them to control and regularly update content in the App (currently over 2000 documents in 15 languages)</p>
+              <p>Getting constant feedback from users through interviews and usability tests as well as monitoring app usage with analytics helped us to make sure any new feature or function added during the ongoing development process was useful, understandable
+                and easy to use for them. </p>
+            </div>
+          </div>
+          <div class="container c_mid cs_media">
+            <img src="../src/img/case_study/simapp/simapp-mockup-02.jpg" alt="Interface Design Details SIMAPP">
+          </div>
+          <div class="container c_thin">
+            <div class="cs_block">
+              <h3>Outcome</h3>
+              <p>Besides providing sales reps with an easily manageable & portable tool for carrying all the latest marketing materials with them in all available languages, the iPad app enables sales reps to flexibly respond to their customers’ requests.
+                More tools have been added to assist sales reps with being more efficient in routine tasks. </p>
+              <p>For marketing teams, it is easy to update content and grant regulatory compliance of all customer-facing communication. </p>
+            </div>
+          </div>
+          <div class="container c_thin">
+            <div class="cs_block">
+              <h3>Impact</h3>
+              <p>As most of the time with digital transformation, working on and using the product has helped sales & marketing teams collaborate and communicate much more closely.</p>
+              <p>One and a half years into continuous development of the app, the majority of sales reps use it as their go-to-solution for researching and presenting marketing materials now, which has also helped to lower printing costs for brochures. </p>
+            </div>
+          </div>
+          <div class="container c_mid">
+            <div class="container c_thin">
+              <h3>Happy Clients:</h3>
+            </div>
+          </div>
+          <div>
+            <div class="container-full" id="quotes_slider">
+              <div class="swiper-container">
+                <!-- <div class="nextprev container c_thin swiper-navigation">
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div> -->
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="container c_thin">
+                      <div class="cs_quote ">
+                        “Easy access to any kind of marketing material from everywhere. Self-explaining navigation. Fast preparation of custom-tailored presentations. Very comprehensive Information tool.”
+                      </div>
+                      <div class="quotation_mark"></div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="container c_thin">
+                      <div class="cs_quote ">
+                        “I like that one cannot make any mistake with the app since the materials are already regulated by MarCom.”
+                      </div>
+                      <div class="quotation_mark"></div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="container c_thin">
+                      <div class="cs_quote ">
+                        “I like the app, it’s easy to use, I find everything. And I prefer an iPad because then I do not have to carry heavy brochures.”
+                      </div>
+                      <div class="quotation_mark"></div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="container c_thin">
+                      <div class="cs_quote ">
+                        “Sharing materials electronically is fantastic, so I can email that straight to my customers - saves me time!”
+                      </div>
+                      <div class="quotation_mark"></div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="container c_thin">
+                      <div class="cs_quote ">
+                        “All necessary information is directly available, impressive for my customers.”
+                      </div>
+                      <div class="quotation_mark"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="cs_quote multi">
+              <div class="container c_thin cs_quotee">
+                <div class="quotation_mark"></div>
+              </div>
+              <div class="swiper-container container c_thin">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    Easy access to any kind of marketing material from everywhere. Self-explaining navigation. Fast preparation of custom-tailored presentations. Very comprehensive Information tool.
+                  </div>
+                  <div class="swiper-slide">
+                    I like that one cannot make any mistake with the app since the materials are already regulated by MarCom.
+                  </div>
+                  <div class="swiper-slide">
+                    I like the app, it’s easy to use, I find everything. And I prefer an iPad because then I do not have to carry heavy brochures.
+                  </div>
+                  <div class="swiper-slide">
+                    Sharing materials electronically is fantastic, so I can email that straight to my customers - saves me time!
+                  </div>
+                  <div class="swiper-slide">
+                    All necessary information is directly available, impressive for my customers.
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          <!-- <div class="container c_thin cs_quotee">
+              <div class="quotation_mark"></div>
+              <div class="cs_quotee_name">
+                Dr. Rita Baxmann<br>
+                <span class="grey">Thermo Fisher Scientific,<br>Global Marketing Manager Clinical Diagnostics</span>
+              </div>
+            </div> -->
+          <div class="container c_mid cs_media">
+            <img src="../src/img/case_study/simapp/simapp-mockup-03.jpg" alt="SIMAPP Design Screens">
+          </div>
+          <div class="container-full">
+            <div class="cta_head">
+              Learn more or start a similiar project with us!
+            </div>
+            <div class="cs_contact">
+              <img src="../src/img/team/lutz.png" alt="Lutz Haase" class="owner">
+              <div class="container">
+                <b>Lutz Haase</b><br><br>
+                <a href="mailto:lutz.haase@ftwk.io">lutz.haase@ftwk.io</a> <span class="hide-small">|</span> <a href="tel:+49 30 667 637 50">+49 30 667 637 50</a>
+                <div class="cta_btn overlay-open" data-overlay="contact">
+                  Let's get in touch
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container links_simapp">
+            <div class="cta_head">
+              Hungry for more?
+            </div>
+            <div class="cs_grid">
+              <a href="case_study_boip" class="cs_item" dev-link>
+                <div class="cs_titlebox" style="background-color: rgb(10, 204, 151);">
+                  <div class="cs_title">Bayer Open Innovation Portal:<br>A home for external innovation</div>
+                  <div class="cs_link">
+                    <div class="inner">See case study</div>
+                  </div>
+                </div>
+                <div class="cs_imagebox">
+                  <img class="cs_image" src="../src/img/case_study/boip/preview_boip.jpg" alt="">
+                </div>
+              </a>
+              <a href="case_study_corporate_innovation" class="cs_item reverse" dev-link>
+                <div class="cs_titlebox" style="background-color: rgb(15, 74, 106);">
+                  <div class="cs_title">Turning Employees into Pioneers of Digital Transformation</div>
+                  <div class="cs_link">
+                    <div class="inner">See case study</div>
+                  </div>
+                </div>
+                <div class="cs_imagebox">
+                  <img class="cs_image" src="../src/img/case_study/roche/preview_roche.jpg" alt="">
+                </div>
+              </a>
+              <a href="case_study_simapp" class="cs_item" dev-link>
+                <div class="cs_titlebox" style="background-color: rgb(141, 75, 8);">
+                  <div class="cs_title">SIMAPP: Empowering sales &amp; marketing teams of a global diagnostics provider</div>
+                  <div class="cs_link">
+                    <div class="inner">See case study</div>
+                  </div>
+                </div>
+                <div class="cs_imagebox">
+                  <img class="cs_image" src="../src/img/case_study/simapp/preview_simapp.jpg" alt="">
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <%= require('html-loader!../components/Footer/Footer.html') %>
+      <%= require('html-loader!../components/Overlays/Overlays.html') %>
+
+  </div>
+
+
+
+</body>
+
+</html>

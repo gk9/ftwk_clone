@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+
+
+  <div class="main_container">
+    <div class="top_bar">
+      <div class="gradient"></div>
+      <div class="container">
+        <%= require('html-loader!../components/FtwkLogo/FtwkLogo.html') %>
+        <%= require('html-loader!../components/Navigation/Navigation.html') %>
+      </div>
+    </div>
+    <div id="barba-wrapper">
+      <div class="barba-container" data-namespace="services">
+        <div class="main_content pb0">
+          <div class="container">
+            <div class="page_head prefade fade">
+              <h1 class="page_title" id="people_title">Innovation as a Service</h1>
+              <h2 class="page_subtitle" id="people_subtitle">
+                <!-- FTWK is a digital innovation consultancy that helps its partners shape the future of healthcare in times of digital transformation, while keeping people at its core.<br>
+                <span class="hide-medium-up"><br></span> -->
+                We believe that new ways of working help create innovative products & services, that are viable, desirable and feasible. The healthcare market is complex, but it’s our specialty. We tap into our vast network of doctors, healthcare professionals, designers and technology experts to tailor solutions to your toughest challenges.</h2>
+            </div>
+          </div>
+
+          <div class="container service_container">
+            <div class="sticky_wrap">
+              <div class="service_menu">
+                <div class="service_item is-active">Innovation Consulting</div>
+                <div class="service_item" data-deepTarget="dt2">New ways of working</div>
+                <div class="service_item" data-deepTarget="dt3">Digital Products & Services</div>
+                <div class="service_item">Company Building</div>
+                <div class="service_item">Regulatory & Compliance Support</div>
+              </div>
+            </div>
+            <div class="service_section prefade fade">
+              <div class="service_section-title">
+                <b>Innovation Consulting</b>
+                <div class="up_down"></div>
+              </div>
+              <img src="src/img/services/service0.png" alt="">
+              <div class="service_content">
+                <div class="service_section-copy">
+                  <p>“What is the real problem?” is one of our favorite questions. Identifying what's needed is the hardest task for everyone. Usually we receive one of three types of requests: those who have a plan and need execution; those who have an idea and need a plan; and those who know their challenge but need ideas and a plan. We like this last option a lot. It enables us to co-create a workable answer together. To do so, we are well-positioned within the German digital health startup ecosystem. Our dedicated, collaborative approach is highly valued by our partners.
+                  </p>
+                </div>
+                <h4>services:</h4>
+                <div class="service_category-wrap">
+                  <div class="service_category">
+                    <div class="service_icon">
+                      <svg class="icon-consulting"><use xlink:href="#ftwkIcons_icon-consulting"></use></svg>
+                    </div>
+                    <div class="service_title">
+                      <b>General Consulting</b>
+                    </div>
+                  </div>
+                  <div class="service_category">
+                    <div class="service_icon">
+                      <svg><use xlink:href="#ftwkIcons_icon-trendscouting"></use></svg>
+                    </div>
+                    <div class="service_title">
+                      <b>Trend <br>Scouting</b>
+                    </div>
+                  </div>
+                  <div class="service_category">
+                    <div class="service_icon">
+                      <svg><use xlink:href="#ftwkIcons_icon-matchmaking"></use></svg>
+                    </div>
+                    <div class="service_title">
+                      <b>Startup <br>Matchmaking</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service_section prefade fade" id="test">
+              <div class="service_section-title">
+                <b>New ways of working – Corporate Innovation</b>
+                <div class="up_down"></div>
+              </div>
+              <img src="src/img/services/service1.png" alt="">
+              <div class="service_content">
+                <div class="service_section-copy">
+                  <p>How do large organizations create an internal cultural transformation to intrapreneurship and innovation?</p>
+                  <p>We help bring different answers to the table. We’ve built successful and collaborative programs in agility and empowerment for major pharma players. We help established companies break out of old patterns of thinking; this calculated risk-taking model brings forth fresh ideas from inside the company and a new approach to leadership.</p>
+                  <p>Our work changes hearts and minds. It also fosters a vital collaboration with the outside community in the form of Hackathons, Labs, and events. This results in a transformative impact on corporate reputation and future directions.</p>
+                </div>
+                <h4>services:</h4>
+                <div class="service_category-wrap">
+                  <div class="service_category">
+                    <div class="service_icon">
+                      <svg class="icon-consulting"><use xlink:href="#ftwkIcons_icon-intrapreneurship"></use></svg>
+                    </div>
+                    <div class="service_title">
+                      <b>Intrapreneurship Program</b>
+                    </div>
+                  </div>
+                  <div class="service_category">
+                    <div class="service_icon">
+                      <svg><use xlink:href="#ftwkIcons_icon-accelerator"></use></svg>
+                    </div>
+                    <div class="service_title">
+                      <b>Accelerator & Innovation Lab</b>
+                    </div>
+                  </div>
+                  <div class="service_category">
+                    <div class="service_icon">
+                      <svg><use xlink:href="#ftwkIcons_icon-designthinking"></use></svg>
+                    </div>
+                    <div class="service_title">
+                      <b>Design Thinking </b>
+                    </div>
+                  </div>
+                  <div class="service_category">
+                    <div class="service_icon">
+                      <svg><use xlink:href="#ftwkIcons_icon-matchmaking"></use></svg>
+                    </div>
+                    <div class="service_title">
+                      <b>Hackathons</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service_section prefade fade">
+              <div class="service_section-title">
+                <b>Digital Products & Services</b>
+                <div class="up_down"></div>
+              </div>
+              <img src="src/img/services/service2.png" alt="">
+              <div class="service_content">
+                <div class="service_section-copy">
+                  <p>We help our partners turn challenges into digital products & services and bring them to market. Fast. Real. Efficient. We deliver viable business outcomes with a clear focus on customer value, within the Lean Startup methodology. Through human-centered design and agile development, we create future business models within the standards and regulations of the European healthcare industry. We know what’s needed to build products, especially for the healthcare journey. By asking what the touchpoints are, providing competence in design, and connections to IT partners we help Chatbots, Apps, AI, ML, VR/AR, and Platforms come to life.</p>
+                </div>
+                <h4>services:</h4>
+                <div class="service_category-wrap">
+                  <div class="service_category">
+                    <div class="service_icon">
+                      <svg class="icon-consulting"><use xlink:href="#ftwkIcons_icon-businessmodel"></use></svg>
+                    </div>
+                    <div class="service_title">
+                      <b>Business Model Innovation </b>
+                    </div>
+                  </div>
+                  <div class="service_category">
+                    <div class="service_icon">
+                      <svg><use xlink:href="#ftwkIcons_icon-designthinking"></use></svg>
+                    </div>
+                    <div class="service_title">
+                      <b>Design Sprints</b>
+                    </div>
+                  </div>
+                  <div class="service_category">
+                    <div class="service_icon">
+                      <svg><use xlink:href="#ftwkIcons_icon-servicedesign"></use></svg>
+                    </div>
+                    <div class="service_title">
+                      <b>Service Design</b>
+                    </div>
+                  </div>
+                  <div class="service_category">
+                    <div class="service_icon">
+                      <svg><use xlink:href="#ftwkIcons_icon-uxdesign"></use></svg>
+                    </div>
+                    <div class="service_title">
+                      <b>User Experience</b>
+                    </div>
+                  </div>
+                  <div class="service_category">
+                    <div class="service_icon">
+                      <svg><use xlink:href="#ftwkIcons_icon-interface"></use></svg>
+                    </div>
+                    <div class="service_title">
+                      <b>Interface & Frontend Design</b>
+                    </div>
+                  </div>
+                  <div class="service_category">
+                    <div class="service_icon">
+                      <svg><use xlink:href="#ftwkIcons_icon-hardware"></use></svg>
+                    </div>
+                    <div class="service_title">
+                      <b>Hardware & Software Development</b>
+                    </div>
+                  </div>
+                  <div class="service_category">
+                    <div class="service_icon">
+                      <svg><use xlink:href="#ftwkIcons_icon-growth"></use></svg>
+                    </div>
+                    <div class="service_title">
+                      <b>Growth Hacking, Traction & Traffic</b>
+                    </div>
+                  </div>
+                  <div class="service_category">
+                    <div class="service_icon">
+                      <svg><use xlink:href="#ftwkIcons_icon-agile"></use></svg>
+                    </div>
+                    <div class="service_title">
+                      <b>Agile & Lean Startup Methodology</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service_section prefade fade">
+              <div class="service_section-title">
+                <b>Company Building</b>
+                <div class="up_down"></div>
+              </div>
+              <img src="src/img/services/service3.png" alt="">
+              <div class="service_content">
+                <div class="service_section-copy">
+                  <p>Do you want to build future businesses in the healthcare area? Let’s set it up. From Incubation to Acceleration to Growth, we cover your needs and turn products into companies. It needs commitment of 3-5 years, investment and a VC-mindset.</p>
+                </div>
+              </div>
+            </div>
+            <div class="service_section prefade fade">
+              <div class="service_section-title last">
+                <b>Regulatory & Compliance Support</b>
+                <div class="up_down"></div>
+              </div>
+              <img src="src/img/services/service4.png" alt="">
+              <div class="service_content">
+                <div class="service_section-copy">
+                  <p>To build a long-term solution in healthcare, you have to know how to innovate while still respecting the rules and the patients. We act within the standards and regulations of the European healthcare industry. If you have a startup that seeks clinical evidence or a corporate who wants to build relationships with startups, we can sort it out. The key is navigating what’s permitted while pushing the envelope on what’s needed by the users and community.</p>
+                  <ul>
+                    <li>Strategic Medical Advisory</li>
+                    <li>Clinical Affairs & Trials Management</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row cta dark">
+            <div class="container">
+              <div class="cta_text">
+                Looking for a solid partner in crime in building great digital products, services and companies in the healthcare sector?
+              </div>
+              <div class="cta_btn overlay-open" data-overlay="contact">
+                Let's get in touch
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <%= require('html-loader!../components/Footer/Footer.html') %>
+    <%= require('html-loader!../components/Overlays/Overlays.html') %>
+
+  </div>
+
+
+
+</body>
+</html>

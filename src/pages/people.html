@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+
+
+  <div class="main_container">
+    <div class="top_bar">
+      <div class="gradient"></div>
+      <div class="container">
+        <%= require('html-loader!../components/FtwkLogo/FtwkLogo.html') %>
+        <%= require('html-loader!../components/Navigation/Navigation.html') %>
+      </div>
+    </div>
+    <div id="barba-wrapper">
+      <div class="barba-container" data-namespace="people">
+        <div class="main_content">
+          <div class="container">
+            <div class="page_head prefade fade">
+              <h1 class="page_title" id="people_title"></h1>
+              <h2 class="page_subtitle" id="people_subtitle"></h2>
+            </div>
+          </div>
+          <%= require('html-loader!../components/TeamMembers/TeamMembers.html') %>
+          <div class="container prefade fade center_row">
+            <div id="team_beta"></div>
+            <img src="src/img/team/team_beta.png" alt="business experience technology" class="beta">
+          </div>
+          <div class="container prefade fade">
+            <div class="text_block">
+              <h2 id="network_title">The FTWK Network</h2>
+              <div class="row">
+                <div class="col50 cc network_left"></div>
+                <div class="col50 cc network_right"></div>
+              </div>
+              <br>
+            </div>
+            <h2>FTWK on Instagram</h2>
+          </div>
+          <div class="container_full prefade fade">
+            <div class="ftwk-feed container-full prefade fade">
+              <iframe src="//lightwidget.com/widgets/a19b3cdf5193539f8fb2ec49bb041293.html"
+                      scrolling="no"
+                      allowtransparency="true"
+                      class="lightwidget-widget"
+                      style="width: 100%; border: 0; overflow: hidden;">
+              </iframe>
+            </div>
+            <div class="center_link">
+              <a href="https://www.instagram.com/ftwk.io/" target="_blank" class="arrow_link">
+                Follow us on Instagram
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%= require('html-loader!../components/Footer/Footer.html') %>
+    <%= require('html-loader!../components/Overlays/Overlays.html') %>
+
+  </div>
+
+
+
+</body>
+</html>

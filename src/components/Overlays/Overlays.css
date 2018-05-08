@@ -1,0 +1,84 @@
+@import '../../css/variables.css';
+
+.overlay-open {
+  cursor: pointer;
+  &.yellow {
+    color: var(--ftwkYellow);
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.overlay {
+  background: var(--ftwkYellow);
+  color: var(--ftwkBlack);
+}
+
+.overlay > .container {
+  padding-top: 25vh;
+  height: 100%;
+  @media(--small) {
+    padding-top: 20vh;
+  }
+}
+
+.overlay.on {
+  visibility: visible;
+  opacity: 1;
+}
+
+.overlay a {
+  color: currentColor;
+}
+
+.overlay-content {
+  position: absolute;
+  width: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  font-family: 'Karla', sans-serif;
+  letter-spacing: 1px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s;
+  &.on {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.overlay.contact .address {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  padding: 2rem 0;
+}
+
+
+.f80 {
+  font-family: 'radikalmedium';
+  @media(--large) {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
+  @media(--medium) {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+  @media(--small) {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+
+  <symbol id="icon-pdf" viewBox="0 0 17 22" fill-rule="evenodd">
+    <g>
+      <polygon points="0 0 0 22 17 22 17 6 11 0"></polygon>
+    </g>
+  </symbol>
+
+  <symbol id="icon-consulting" viewBox="0 0 64 64">
+    <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+      <path d="M25 35h-2l-8 8v-8H9V11h38v13"/>
+      <path d="M31 45h11l9 8v-8h4V29H31z"/>
+    </g>
+  </symbol>
+
+  <symbol id="icon-trendscouting" viewBox="0 0 64 64">
+    <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+      <path d="M29 43.063c0 5.522-4.476 10-10 10s-10-4.478-10-10c0-5.524 4.476-10 10-10s10 4.476 10 10z"/>
+      <path d="M29 20.063v-8c-1.5-1.5-4.5-1.5-6 0l-3 8-3 3-6 14M35 43.063c0 5.522 4.476 10 10 10s10-4.478 10-10c0-5.524-4.476-10-10-10s-10 4.476-10 10z"/>
+      <path d="M35 20.063V12.19c1.5-1.5 4.5-1.5 6 0l3 7.874 3 3 6 14M24 28.063c0-2.21 3.582-4 8-4s8 1.79 8 4M29 43.063v-18.71M35 43.063v-18.71M13 43.063c0-3.312 2.688-6 6-6M39 43.063c0-3.312 2.688-6 6-6"/>
+    </g>
+  </symbol>
+
+  <symbol id="icon-matchmaking" viewBox="0 0 64 64">
+    <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <path d="M37 33l.172.172a4 4 0 0 0 5.656 0l7.93-7.928c2.332-2.334 2.332-6.152 0-8.486l-3.516-3.514c-2.332-2.334-6.152-2.334-8.484 0l-7.93 7.928a4.002 4.002 0 0 0 0 5.658L31 27M27 31l-.172-.17a3.996 3.996 0 0 0-5.656 0l-7.93 7.928c-2.332 2.334-2.332 6.152 0 8.486l3.516 3.514c2.332 2.334 6.152 2.334 8.484 0l7.93-7.928a4.002 4.002 0 0 0 0-5.658L33 37M24.223 39.778l15.554-15.556"/>
+    </g>
+  </symbol>
+
+  <symbol id="icon-intrapreneurship" viewBox="0 0 64 64">
+    <g fill="none" fill-rule="evenodd" stroke-linejoin="round" stroke-width="2">
+        <path d="M29 23a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM40 27H18c0 8.138 3.28 12.884 7 15v13h8V42c3.716-2.116 7-6.862 7-15zM44 41h3v14h-6V41zM44 41v-3"/>
+        <path d="M30 27h-2l-1 12 2 2 2-2z"/>
+    </g>
+  </symbol>
+
+  <symbol id="icon-accelerator" viewBox="0 0 64 64">
+    <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <path d="M35 39a3.001 3.001 0 0 1-6 0 3 3 0 1 1 6 0zM34.121 36.878l9.9-9.898M13 40h4M51 40h-4M49.553 31.73l-3.696 1.53M39.27 21.446l-1.53 3.696M32 20v4M24.73 21.446l1.53 3.696M18.566 25.563l2.824 2.83M14.447 31.73l3.694 1.53"/>
+        <path d="M32 16C19.296 16 9 26.298 9 39v9h46v-9c0-12.702-10.296-23-23-23z"/>
+    </g>
+  </symbol>
+
+  <symbol id="icon-agile" viewBox="0 0 64 64">
+    <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <path d="M35 39a3.001 3.001 0 0 1-6 0 3 3 0 1 1 6 0zM34.121 36.878l9.9-9.898M13 40h4M51 40h-4M49.553 31.73l-3.696 1.53M39.27 21.446l-1.53 3.696M32 20v4M24.73 21.446l1.53 3.696M18.566 25.563l2.824 2.83M14.447 31.73l3.694 1.53"/>
+        <path d="M32 16C19.296 16 9 26.298 9 39v9h46v-9c0-12.702-10.296-23-23-23z"/>
+    </g>
+  </symbol>
+
+  <symbol id="icon-designthinking" viewBox="0 0 64 64">
+    <g fill="none" fill-rule="evenodd" stroke-linejoin="round" stroke-width="2">
+        <path d="M48.127 24.812C48.127 14.75 38.625 9 29.999 9c-10.718 0-19 8.406-19 19.124 0 6.086 2 11.798 8 15.356V55h20v-6.954c4 .022 6.036-.268 7.438-1.672C48.235 44.578 48.063 37 48.063 37s1.706.064 2.996.012a1.5 1.5 0 0 0 1.15-.614c.258-.368.176-.812.21-1.26.23-3.212-4.292-8.724-4.292-10.326z"/>
+        <path d="M29.223 15H36.3l-3.45 8h5.328L26.613 40.402 28.895 29h-5.452z"/>
+    </g>
+  </symbol>
+
+  <symbol id="icon-businessmodel" viewBox="0 0 64 64">
+    <g fill="none" fill-rule="evenodd" stroke-linejoin="round" stroke-width="2">
+        <path d="M22 23a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM33 27H11c0 8.138 3.28 12.884 7 15v13h8V42c3.716-2.116 7-6.862 7-15z"/>
+        <path d="M23 27h-2l-1 12 2 2 2-2zM48.043 24.662V29h-4v-4.338"/>
+        <path d="M52.043 19a6 6 0 1 1-12.002-.002A6 6 0 0 1 52.043 19zM46 8v2M53.789 11.191l-1.412 1.414M57 19h-2M53.789 26.748l-1.412-1.414M38.234 26.748l1.414-1.414M35 19h2M38.234 11.191l1.414 1.414"/>
+    </g>
+  </symbol>
+
+  <symbol id="icon-servicedesign" viewBox="0 0 64 64">
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#08D5D9" stroke-linejoin="round" stroke-width="2" d="M19 55h-8V39h8z"/>
+        <path stroke="#08D5D9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 53h34c0-3-7-6-15-6H24"/>
+        <path stroke="#08D5D9" stroke-linejoin="round" stroke-width="2" d="M19 41h7c4.706 0 7 5 8 6"/>
+        <path fill="#08D5D9" d="M15 50a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+        <path stroke="#08D5D9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 30V13c0-2.2 1.8-4 4-4h32c2.2 0 4 1.8 4 4v24c0 2.2-1.8 4-4 4h-6M15 17h40"/>
+        <path fill="#08D5D9" d="M21 12a1 1 0 1 0 0 2 1 1 0 0 0 0-2M25 12a1 1 0 1 0 0 2 1 1 0 0 0 0-2M29 12a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+    </g>
+  </symbol>
+
+  <symbol id="icon-uxdesign" viewBox="0 0 64 64">
+    <g fill="none" fill-rule="evenodd" stroke-width="2">
+        <g stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 9v6M15 19H9M15 45H9M45 9v6M19 49v6M45 49v6M55 19h-6M55 45h-6M19 45h26V19H19z"/>
+        </g>
+        <path stroke-linecap="square" d="M19 45l24.505-24.505M44 45L19.495 20.495"/>
+    </g>
+  </symbol>
+
+  <symbol id="icon-interface" viewBox="0 0 64 64">
+    <g fill="none" fill-rule="evenodd" stroke="#08D5D9" stroke-linejoin="round" stroke-width="2">
+        <path stroke-linecap="round" d="M55 51a4 4 0 0 1-4 4H13c-2.208 0-4-1.792-4-4V13c0-2.208 1.792-4 4-4h38a4 4 0 0 1 4 4v38zM9 19h46"/>
+        <path stroke-linecap="round" d="M17 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM23 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM29 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM21 25h-6v24h6zM15 31h6M15 37h6M15 43h6"/>
+        <path d="M37 39h3l2.376 2H49v8H37z"/>
+        <path stroke-linecap="round" d="M29.969 36.062l14.072-7.98M48 27a2 2 0 1 1-4.001-.001A2 2 0 0 1 48 27zM30 37a2 2 0 1 1-4.001-.001A2 2 0 0 1 30 37z"/>
+    </g>
+  </symbol>
+
+  <symbol id="icon-hardware" viewBox="0 0 64 64">
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#08D5D9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M55 43.822C55 45.578 53.658 47 52 47H12c-1.658 0-3-1.422-3-3.178V14.178C9 12.422 10.342 11 12 11h40c1.658 0 3 1.422 3 3.178v29.644zM18 51h28M32 47v4"/>
+        <path stroke="#08D5D9" stroke-linejoin="round" stroke-width="2" d="M33 43a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 39h46"/>
+        <path fill="#08D5D9" d="M21 34h-2v2h2zM25 34h-2v2h2zM29 34h-2v2h2zM33 34h-2v2h2zM37 34h-2v2h2zM41 34h-2v2h2zM45 34h-2v2h2zM23 32h-2v2h2zM27 32h-2v2h2zM31 32h-2v2h2zM35 32h-2v2h2zM39 32h-2v2h2zM43 32h-2v2h2zM21 30h-2v2h2zM25 30h-2v2h2zM29 30h-2v2h2zM33 30h-2v2h2zM37 30h-2v2h2zM41 30h-2v2h2zM45 30h-2v2h2zM23 28h-2v2h2zM27 28h-2v2h2zM31 28h-2v2h2zM35 28h-2v2h2zM39 28h-2v2h2zM43 28h-2v2h2zM21 26h-2v2h2zM25 26h-2v2h2zM29 26h-2v2h2zM33 26h-2v2h2zM37 26h-2v2h2zM41 26h-2v2h2zM45 26h-2v2h2zM23 24h-2v2h2zM27 24h-2v2h2zM31 24h-2v2h2zM35 24h-2v2h2zM39 24h-2v2h2zM43 24h-2v2h2zM21 22h-2v2h2zM25 22h-2v2h2zM29 22h-2v2h2zM33 22h-2v2h2zM37 22h-2v2h2zM41 22h-2v2h2zM45 22h-2v2h2zM23 20h-2v2h2zM27 20h-2v2h2zM31 20h-2v2h2zM35 20h-2v2h2zM39 20h-2v2h2zM43 20h-2v2h2zM21 18h-2v2h2zM25 18h-2v2h2zM29 18h-2v2h2zM33 18h-2v2h2zM37 18h-2v2h2zM41 18h-2v2h2zM45 18h-2v2h2zM23 16h-2v2h2zM27 16h-2v2h2zM31 16h-2v2h2zM35 16h-2v2h2zM39 16h-2v2h2zM43 16h-2v2h2zM21 14h-2v2h2zM25 14h-2v2h2zM29 14h-2v2h2zM33 14h-2v2h2zM37 14h-2v2h2zM41 14h-2v2h2zM45 14h-2v2h2z"/>
+    </g>
+  </symbol>
+
+  <symbol id="icon-growth" viewBox="0 0 64 64">
+    <g fill="none" fill-rule="evenodd" stroke="#08D5D9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <path d="M9 53h46M17 47h-6v6h6zM29 39h-6v14h6zM41 31h-6v22h6zM53 23h-6v30h6zM14 32.941l36-24M49 17l1-8.058L42 8"/>
+    </g>
+  </symbol>
+
+  <symbol id="icon-twitter" viewBox="0 0 21 18" fill-rule="evenodd">
+      <path d="M20.9312258,2.133 C20.1590968,2.49375 19.3344516,2.7375 18.4650968,2.85 C19.3521936,2.2875 20.0349032,1.3965 20.3542581,0.3375 C19.5246452,0.858 18.6070323,1.2375 17.6269677,1.43925 C16.8413548,0.55275 15.7236129,0 14.4909032,0 C12.1177419,0 10.1973548,2.034 10.1973548,4.542 C10.1973548,4.89825 10.2328387,5.2455 10.3080645,5.5785 C6.73767742,5.391 3.5703871,3.58125 1.45483871,0.8295 C1.08651613,1.5 0.873612907,2.283 0.873612907,3.1125 C0.873612907,4.6875 1.63651613,6.0795 2.78974194,6.8955 C2.08006452,6.87675 1.41509678,6.6705 0.838129037,6.32775 L0.838129037,6.38475 C0.838129037,8.5875 2.31993549,10.4205 4.28432258,10.8375 C3.92522581,10.94025 3.54412904,10.9965 3.15380645,10.9965 C2.87845162,10.9965 2.60806452,10.96875 2.34619355,10.9125 C2.89193549,12.717 4.48019355,14.0295 6.36083871,14.067 C4.89251613,15.28575 3.03812904,16.0125 1.0247742,16.0125 C0.678451617,16.0125 0.337096774,15.98925 0,15.94725 C1.89412904,17.25 4.15161291,18 6.57303226,18 C14.4816774,18 18.8021936,11.07675 18.8021936,5.0715 C18.8021936,4.875 18.7972258,4.67775 18.7887097,4.48575 C19.6268387,3.84375 20.3542581,3.04725 20.9312258,2.133"></path>
+  </symbol>
+
+  <symbol id="icon-linkedin" viewBox="0 0 18 18" fill-rule="evenodd">
+      <path d="M0.454021637,5.77180177 L3.96237065,5.77180177 L3.96237065,17.9988475 L0.454021637,17.9988475 L0.454021637,5.77180177 Z M2.11876764,4.2424126 L2.09336783,4.2424126 C0.823377234,4.2424126 -1.13686838e-13,3.30772186 -1.13686838e-13,2.12408759 C-1.13686838e-13,0.91625048 0.847718721,0 2.14310913,0 C3.4374412,0 4.23330198,0.913945448 4.25870179,2.12063004 C4.25870179,3.30426431 3.4374412,4.2424126 2.11876764,4.2424126 Z M18,18 L14.0217545,18 L14.0217545,11.6715328 C14.0217545,10.0153669 13.3994591,8.88590088 12.0310442,8.88590088 C10.9843603,8.88590088 10.4022813,9.64771418 10.13135,10.3841721 C10.0297507,10.6469458 10.0456256,11.0145985 10.0456256,11.3834038 L10.0456256,18 L6.10442145,18 C6.10442145,18 6.15522107,6.7906262 6.10442145,5.77180177 L10.0456256,5.77180177 L10.0456256,7.69074145 C10.2784572,6.85170957 11.5378645,5.6542451 13.5476246,5.6542451 C16.0410395,5.6542451 18,7.41413753 18,11.2001537 L18,18 Z"></path>
+  </symbol>
+
+</svg>

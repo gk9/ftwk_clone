@@ -1,0 +1,17 @@
+:root {
+  --containerWidthL: 1120px;
+  --containerWidthM: calc(100vw - 64px);
+  --containerWidthS: calc(100vw - 48px);
+  --container100: 100vw;
+  --gridF: calc(1 / 35 * var(--container100));
+  --gridL: calc(1 / 35 * var(--containerWidthL));
+  --gridM: calc(1 / 35 * var(--containerWidthM));
+  --gridS: calc(1 / 35 * var(--containerWidthS));
+  --ftwkYellow: #ffd203;
+  --ftwkBlack: #19181e;
+  --ftwkTeal: #08d5d9;
+}
+@custom-media --xs (max-width: 500px);
+@custom-media --small (max-width: 800px);
+@custom-media --medium (max-width: 1200px);
+@custom-media --large (min-width: 1201px);

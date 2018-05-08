@@ -1,0 +1,102 @@
+{
+  "projects":[
+      {
+        "title": "Bayer Open Innovation Portal:<br>A home for external innovation",
+        "image": "case_study/boip/preview_boip.jpg",
+        "color": "#0acc97",
+        "direction": "",
+        "url": "/work/case_study_boip",
+        "linkTitle": "See case study"
+      },
+      {
+        "title": "Turning Employees into Pioneers of Digital Transformation",
+        "image": "case_study/roche/preview_roche.jpg",
+        "color": "#0F4A6A",
+        "direction": "reverse",
+        "url": "/work/case_study_corporate_innovation",
+        "linkTitle": "See case study"
+      },
+      {
+        "title": "SIMAPP: Empowering sales & marketing teams of a global diagnostics provider",
+        "image": "case_study/simapp/preview_simapp.jpg",
+        "color": "#8D4B08",
+        "direction": "",
+        "url": "/work/case_study_simapp",
+        "linkTitle": "See case study"
+      }
+  ],
+  "team":[
+    {
+      "image": "team0.jpg"
+    },
+    {
+      "image": "team1.jpg"
+    },
+    {
+      "image": "team2.jpg"
+    },
+    {
+      "image": "team3.jpg"
+    }
+  ],
+  "boip_slider":[
+    {
+      "image": "boip3.jpg",
+      "alt": "user journey map"
+    },
+    {
+      "image": "boip7.jpg",
+      "alt": "cross-divisional stakeholder collaboration"
+    },
+    {
+      "image": "boip2.jpg",
+      "alt": "UX strategy canvas for the Open Innovation Portal"
+    },
+    {
+      "image": "boip6.jpg",
+      "alt": "stakeholder collaboration: clustering persona needs"
+    },
+    {
+      "image": "boip4.jpg",
+      "alt": "Usability Test session"
+    },
+    {
+      "image": "boip-principles.jpg",
+      "alt": "Open Innovation Portal Design Principles"
+    }
+  ],
+  "roche_slider":[
+    {
+      "image": "roche0.jpg",
+      "alt": "Kick-off-workshop: defining goals"
+    },
+    {
+      "image": "prototyping1.jpg",
+      "alt": "Design Sprint Workshop with employees"
+    },
+    {
+      "image": "prototyping2.jpg",
+      "alt": "Design Sprint: documenting insights"
+    },
+    {
+      "image": "prototyping3.jpg",
+      "alt": "Design Sprint Prototype"
+    },
+    {
+      "image": "prototyping4.jpg",
+      "alt": "Design Sprint Prototype"
+    },
+    {
+      "image": "roche-illustrations-02.jpg",
+      "alt": "Prototype illustration: multimodal user-system interaction"
+    },
+    {
+      "image": "roche-mockup-02.jpg",
+      "alt": "Output: Service App Prototype"
+    },
+    {
+      "image": "roche-mockup-03.jpg",
+      "alt": "Output: Patient App Prototype"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+
+
+  <div class="main_container">
+    <div class="top_bar">
+      <div class="gradient"></div>
+      <div class="container">
+        <%= require('html-loader!../components/FtwkLogo/FtwkLogo.html') %>
+        <%= require('html-loader!../components/Navigation/Navigation.html') %>
+      </div>
+    </div>
+    <div id="barba-wrapper">
+      <div class="barba-container" data-namespace="space">
+        <div class="main_content">
+          <div class="cs_bg space" id="space_bg"></div>
+          <div class="container c_thin">
+            <div class="cs_top prefade fade">
+              <h1 id="space_h1"></h1>
+            </div>
+            <div class="cs_block prefade fade" id="space_info"></div>
+          </div>
+
+          <div class="cs_media">
+            <div class="container-full" id="space_slider">
+              <%= require('html-loader!../components/Slider/Slider.html') %>
+            </div>
+          </div>
+
+          <div class="container-full">
+            <div class="cta_head" id="space_join"></div>
+            <div class="cs_contact">
+              <img src="../src/img/team/lutz.png" alt="Lutz Haase" class="owner">
+              <div class="container">
+                <b>Lutz Haase</b><br><br>
+                <a href="mailto:lutz.haase@ftwk.io">lutz.haase@ftwk.io</a> <span class="hide-small">|</span> <a href="tel:+49 30 667 637 50">+49 30 667 637 50</a>
+                <div class="cta_btn overlay-open" data-overlay="contact">
+                  Let's get in touch
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+
+      </div>
+    </div>
+
+    <%= require('html-loader!../components/Footer/Footer.html') %>
+    <%= require('html-loader!../components/Overlays/Overlays.html') %>
+
+  </div>
+
+
+
+</body>
+</html>

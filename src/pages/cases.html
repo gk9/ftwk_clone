@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+
+
+  <div class="main_container off">
+    <div class="top_bar">
+      <div class="gradient"></div>
+      <div class="container">
+        <%= require('html-loader!../components/FtwkLogo/FtwkLogo.html') %>
+        <%= require('html-loader!../components/Navigation/Navigation.html') %>
+      </div>
+    </div>
+    <div id="barba-wrapper">
+      <div class="barba-container" data-namespace="workpage">
+        <div class="main_content pb0">
+          <div class="container">
+            <div class="page_head prefade fade">
+              <h1 class="page_title" id="work_title">Cases</h1>
+              <h2 class="page_subtitle" id="work_subtitle">From new ways of working to new products and services, please find three selected case studies below.</h2>
+            </div>
+            <div class="cs_grid">
+              <a href="/cases/case_study_corporate_innovation" class="cs_item prefade fade" dev-link>
+                <div class="cs_titlebox" style="background-color: rgb(15, 74, 106);">
+                  <div class="cs_title">Turning Employees into Pioneers of Digital Transformation</div>
+                  <div class="cs_link">
+                    <div class="inner">See case study</div>
+                  </div>
+                </div>
+                <div class="cs_imagebox">
+                  <img class="cs_image" src="../src/img/case_study/roche/preview_roche.jpg" alt="">
+                </div>
+              </a>
+              <a href="/cases/case_study_boip" class="cs_item prefade fade reverse" dev-link>
+                <div class="cs_titlebox" style="background-color: rgb(10, 204, 151);">
+                  <div class="cs_title">Bayer Open Innovation Portal:<br>A home for external innovation</div>
+                  <div class="cs_link">
+                    <div class="inner">See case study</div>
+                  </div>
+                </div>
+                <div class="cs_imagebox">
+                  <img class="cs_image" src="../src/img/case_study/boip/preview_boip.jpg" alt="">
+                </div>
+              </a>
+              <a href="/cases/case_study_simapp" class="cs_item prefade fade" dev-link>
+                <div class="cs_titlebox" style="background-color: rgb(141, 75, 8);">
+                  <div class="cs_title">SIMAPP: Empowering sales &amp; marketing teams of a global diagnostics provider</div>
+                  <div class="cs_link">
+                    <div class="inner">See case study</div>
+                  </div>
+                </div>
+                <div class="cs_imagebox">
+                  <img class="cs_image" src="../src/img/case_study/simapp/preview_simapp.jpg" alt="">
+                </div>
+              </a>
+            </div>
+            <div class="center_row">
+              <h2>Clients</h2>
+              <p>Since 2009 we have been trusted to work with:</p>
+            </div>
+            <%= require('html-loader!../components/LogoWall/LogoWall.html') %>
+            <div class="center_row">
+              <p>... and about 20+ clients from different industries, including RedBull, O2, Daimler, Otto Reisen or Toshiba.</p>
+            </div>
+          </div>
+          <div class="row cta">
+            <div class="container">
+              <div class="cta_text">
+                Looking for a solid partner in crime in building great digital products, services and companies in the healthcare sector?
+              </div>
+              <div class="cta_btn overlay-open" data-overlay="contact">
+                Let's get in touch
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <%= require('html-loader!../components/Footer/Footer.html') %>
+    <%= require('html-loader!../components/Overlays/Overlays.html') %>
+
+  </div>
+
+
+
+</body>
+</html>

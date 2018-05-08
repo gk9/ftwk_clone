@@ -1,0 +1,71 @@
+@import '../../css/variables.css';
+
+.logo_wall {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -20px;
+}
+
+.logo_card {
+  position: relative;
+  @media(--large) {
+    width: calc(var(--gridL) * 8);
+    height: calc(var(--gridL) * 4);
+    margin: calc(var(--gridL) / 2);
+  }
+  @media(--medium) {
+    width: calc(var(--gridM) * 8);
+    height: calc(var(--gridM) * 4);
+    margin: calc(var(--gridM) / 2);
+  }
+  @media(--small) {
+    width: calc(var(--gridS) * 11);
+    height: calc(var(--gridS) * 5.5);
+    margin: calc(var(--gridS) / 2);
+  }
+}
+
+.logo_card > div {
+  position: absolute;
+  width: 100%;
+  padding-bottom: 50%;
+  background-color: #303034;
+}
+
+.logo_card > div > div {
+  width: 75%;
+  height: 75%;
+  background-image: url("../../img/logo_wall/logo_sprite.png");
+  position: absolute;
+  background-size: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  left: 12.5%;
+  top: 12.5%;
+  &.l0 {
+    background-position: 0 0;
+  }
+  &.l1 {
+    background-position: 0 11%;
+  }
+  &.l2 {
+    background-position: 0 22%;
+  }
+  &.l3 {
+    background-position: 0 33%;
+  }
+  &.l4 {
+    background-position: 0 44%;
+  }
+  &.l5 {
+    background-position: 0 55%;
+  }
+  &.l6 {
+    background-position: 0 66%;
+  }
+  &.l7 {
+    background-position: 0 77%;
+  }
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+
+  <div class="main_container off">
+    <div class="top_bar">
+      <div class="gradient"></div>
+      <div class="container">
+        <%= require('html-loader!../components/FtwkLogo/FtwkLogo.html') %>
+        <%= require('html-loader!../components/Navigation/Navigation.html') %>
+      </div>
+    </div>
+    <div id="barba-wrapper">
+      <div class="barba-container imprint" data-namespace="imprint">
+        <div class="main_content">
+          <div class="container static-page">
+            Imprint<br><br>
+            FTWK GmbH & Co. KG <br>
+            Gürtelstraße 25 <br>
+            10247 Berlin <br><br>
+
+            Tel:  +49 30 667 637 50 <br>
+            Fax: +49 30 667 637 53 <br><br>
+
+            Handelsregisternr.: HRA 50013 B <br>
+            Amtsgericht: Berlin-Charlottenburg <br>
+            Geschäftsführer: Herr Lutz Haase <br>
+            USt-IdNr. DE296648743 <br><br>
+
+            <a href='mailto:hello@ftwk.io'>hello@ftwk.io</a><br>
+            <a href='https://ftwk.io'>https://ftwk.io</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%= require('html-loader!../components/Footer/Footer.html') %>
+    <%= require('html-loader!../components/Overlays/Overlays.html') %>
+  </div>
+
+</body>
+
+</html>

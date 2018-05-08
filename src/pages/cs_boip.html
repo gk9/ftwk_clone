@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+
+
+  <div class="main_container">
+    <div class="top_bar">
+      <div class="gradient"></div>
+      <div class="container">
+        <%= require('html-loader!../components/FtwkLogo/FtwkLogo.html') %>
+        <%= require('html-loader!../components/Navigation/Navigation.html') %>
+      </div>
+    </div>
+    <div id="barba-wrapper">
+      <div class="barba-container" data-namespace="cs_boip">
+        <div class="main_content">
+          <div class="cs_bg boip"></div>
+          <div class="container c_thin">
+            <div class="cs_top">
+              <div class="cs_tags">
+                <div>strategic consulting & design thinking</div>
+                <div>UX Research & Design</div>
+                <div>frontend development</div>
+              </div>
+              <h1>Bayer Open Innovation Portal:<br>A home for external innovation</h1>
+              <div>
+                <a href="https://innovate.bayer.com/" target="_blank" class="inner arrow_link">innovate.bayer.com<span></span></a>
+              </div>
+            </div>
+            <div class="cs_block">
+              <h3>Challenge</h3>
+              <p>Being a leader in research & development in the Life Sciences, Bayer AG have made partnering & collaboration with external innovators an integral part of their global innovation strategy. They have been offering various online crowdsourcing and open innovation programs for scientists, startups and SMEs in different disciplines and divisions over the last years.</p>
+              <p>Our task was to build a single & easily accessible digital touchpoint that would showcase all external innovation opportunities Bayer has to offer globally in one place. </p>
+            </div>
+          </div>
+          <div class="container c_mid cs_media">
+            <img src="../src/img/case_study/boip/BOIP-mockup-devices.jpg" alt="Fully responsive Bayer Open Innovation Portal">
+          </div>
+          <div class="container c_thin">
+            <div class="cs_block">
+              <h3>Approach</h3>
+              <p>In an initial research phase with existing and potential collaborators we learned more about the targeted users and their specific information needs and underlying motivations. </p>
+              <p>The insights from the research helped us to turn our clients’ perspective from inside-out (representing the organization’s activities) to outside-in (offering a service tailored to the needs of external innovators). </p>
+            </div>
+          </div>
+          <div class="cs_media">
+            <div class="container-full" id="boip_slider">
+              <%= require('html-loader!../components/Slider/Slider.html') %>
+            </div>
+          </div>
+          <div class="container c_thin">
+            <div class="cs_block">
+              This user-centric approach was also reflected in the guiding design principles that were defined for the Open Innovation Portal to keep everyone on track throughout the further development of the platform, and helped us as an indicator for measuring success in both qualitative usability testing as well as quantitative web analytics.
+            </div>
+            <div class="cs_block">
+              <h3>Outcome</h3>
+              On <a href="https://innovate.bayer.com/" target="_blank">innovate.bayer.com</a>, external innovators can quickly find out about collaboration opportunities with Bayer that precisely fit their profile and criteria, as well as contact the right people within Bayer, rather than having to sift through corporate organizational structures to find relevant information.<br>
+              On the content side, innovators can learn more about which new ideas Bayer scientists are working on or have worked on in previous collaborations, while staying informed about News & Events for their area of interest.
+            </div>
+          </div>
+          <div class="container c_mid cs_media">
+            <div class="video_wrap">
+              <video src="../src/video/open_innovation.mp4" controls poster="../src/video/open_innovation_poster.jpg"></video>
+            </div>
+          </div>
+          <div class="container c_thin">
+            <div class="cs_block">
+              <h3>Impact</h3>
+              All of Bayer’s open innovation programs have seen an increase of interest and submissions since the launch of the portal in spring 2016, while some promising R&D leads have been made directly through the portal. New programs & innovation challenges benefit from the raised attention they get from being featured on the Open Innovation Portal.
+            </div>
+            <div class="cs_block">
+              <h3>Learnings</h3>
+              “Bring it all together” is one of the six design principles, developed with a cross-divisional team from Bayer - apart from bundling all open innovation initiatives on one website, bringing together people from different areas, functions and divisions across the corporation was also one of the core factors of success for this innovation project.
+            </div>
+          </div>
+          <div class="container c_mid cs_media">
+            <img src="../src/img/case_study/boip/boip5.jpg" alt="Mapping Jobs to be done to Personas">
+          </div>
+
+          <div class="container-full">
+            <div class="cta_head">
+              Learn more or start a similiar project with us!
+            </div>
+            <div class="cs_contact">
+              <img src="../src/img/team/lutz.png" alt="Lutz Haase" class="owner">
+              <div class="container">
+                <b>Lutz Haase</b><br><br>
+                <a href="mailto:lutz.haase@ftwk.io">lutz.haase@ftwk.io</a> <span class="hide-small">|</span> <a href="tel:+49 30 667 637 50">+49 30 667 637 50</a>
+                <div class="cta_btn overlay-open" data-overlay="contact">
+                  Let's get in touch
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container links_boip">
+            <div class="cta_head">
+              Hungry for more?
+            </div>
+
+            <div class="cs_grid">
+              <a href="case_study_boip" class="cs_item" dev-link>
+                <div class="cs_titlebox" style="background-color: rgb(10, 204, 151);">
+                  <div class="cs_title">Bayer Open Innovation Portal:<br>A home for external innovation</div>
+                  <div class="cs_link">
+                    <div class="inner">See case study</div>
+                  </div>
+                </div>
+                <div class="cs_imagebox">
+                  <img class="cs_image" src="../src/img/case_study/boip/preview_boip.jpg" alt="">
+                </div>
+              </a>
+              <a href="case_study_corporate_innovation" class="cs_item reverse" dev-link>
+                <div class="cs_titlebox" style="background-color: rgb(15, 74, 106);">
+                  <div class="cs_title">Turning Employees into Pioneers of Digital Transformation</div>
+                  <div class="cs_link">
+                    <div class="inner">See case study</div>
+                  </div>
+                </div>
+                <div class="cs_imagebox">
+                  <img class="cs_image" src="../src/img/case_study/roche/preview_roche.jpg" alt="">
+                </div>
+              </a>
+              <a href="case_study_simapp" class="cs_item" dev-link>
+                <div class="cs_titlebox" style="background-color: rgb(141, 75, 8);">
+                  <div class="cs_title">SIMAPP: Empowering sales &amp; marketing teams of a global diagnostics provider</div>
+                  <div class="cs_link">
+                    <div class="inner">See case study</div>
+                  </div>
+                </div>
+                <div class="cs_imagebox">
+                  <img class="cs_image" src="../src/img/case_study/simapp/preview_simapp.jpg" alt="">
+                </div>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <%= require('html-loader!../components/Footer/Footer.html') %>
+    <%= require('html-loader!../components/Overlays/Overlays.html') %>
+
+  </div>
+
+
+
+</body>
+</html>

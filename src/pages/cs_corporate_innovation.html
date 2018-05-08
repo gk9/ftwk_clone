@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+
+
+  <div class="main_container">
+    <div class="top_bar">
+      <div class="gradient"></div>
+      <div class="container">
+        <%= require('html-loader!../components/FtwkLogo/FtwkLogo.html') %>
+        <%= require('html-loader!../components/Navigation/Navigation.html') %>
+      </div>
+    </div>
+    <div id="barba-wrapper">
+      <div class="barba-container" data-namespace="cs_roche">
+        <div class="main_content">
+          <div class="cs_bg roche"></div>
+          <div class="container c_thin">
+            <div class="cs_top">
+              <div class="cs_tags">
+                <div>Corporate Innovation</div>
+                <div>Lean Business</div>
+                <div>Design Thinking Coaching</div>
+                <div>Design Sprints</div>
+              </div>
+              <h1>Turning employees into pioneers of digital transformation</h1>
+            </div>
+            <div class="cs_block">
+              <h3>Challenge</h3>
+              <p>Many established companies today face the challenge of keeping up with an increasingly  fast changing market that can be easily disrupted by startups with fresh perspectives and new ideas. Our client, a leading healthcare diagnostics company, was in a similar situation when they approached us with the request to conduct a „Digital Acceleration Program“ to help them develop new and innovative digital products and services to grant them sustainable growth in the future.  </p>
+            </div>
+          </div>
+          <div class="container c_mid cs_media">
+            <img src="../src/img/case_study/roche/roche5.jpg" alt="Design Thinking Coaching">
+          </div>
+          <div class="container c_thin">
+            <div class="cs_block">
+              <h3>Approach</h3>
+              <p>We took a two-pronged approach here: one was to come up with ideas for new products, services and business models and already validate them within a short period of time, while at the same time coaching employees in co-creation, design thinking methods and agile product development.
+              </p>
+              <p>This should plant the seeds for a sustainable cultural transformation within the company, establishing a new mindset of customer-centric innovation that would help the company stay competitive. </p>
+            </div>
+          </div>
+          <div class="container c_thin">
+            <div class="cs_block">
+              <h3>Process</h3>
+              <p>We started with an explorative research phase of interviewing employees across the company as well as customers and patients, to map the domain and identify possible areas for innovation. In a workshop with 600 employees, we collected their ideas for improvements on 3000+ post-its, which were then evaluated, clustered and condensed into 21 themes that were presented on the intranet for employees to vote on, with the final selection of 9 topics coming from the Management Board.
+              </p>
+              <p>These nine ideas were incubated in two rounds of design sprints with mixed, interdisciplinary teams from both the client side as well as from FTWK. After the first round of short 3-day sprints, there was another online vote by employees and three finalist topics were selected by the Management Board based on desirability, feasibility and viability, to go into the final 7-week „deep dive“ sprint with further development, testing and validation leading up to Demo Day.</p>
+            </div>
+          </div>
+          <div class="container c_mid cs_media">
+            <div class="video_wrap">
+              <video src="../src/video/design_sprints.mp4" controls poster="../src/video/design_sprints_poster.jpg"></video>
+            </div>
+          </div>
+          <div class="container c_thin">
+            <div class="cs_block">
+              <h3>Outcome & Impact</h3>
+              <p>All three finalist teams presented advanced, tangible and validated ideas and prototypes on Demo Day that impressed the management with their speed of development and innovation, and got immediate positive feedback from business sponsors within the company to carry them further. Two of the projects have already gone into realization, one will take a bigger scope to develop as it explores a fundamental new business model.</p>
+              <p>The biggest impact however was the new spirit of co-creation, questioning old ways and simply trying out new things that the client-side team members experienced (and loved!) during the design sprints. Taking new perspectives by talking to customers and patients as well as to other departments, trying out new collaborative tools and doing things step by step in an agile way were the most valuable takeaways for the employees involved in the project. They will be pioneers of digital transformation within the company. </p>
+            </div>
+          </div>
+          <div class="cs_media">
+            <div class="container-full" id="roche_slider">
+              <%= require('html-loader!../components/Slider/Slider.html') %>
+            </div>
+          </div>
+          <div class="container c_mid cs_quote_wrap">
+            <div class="cs_block container c_thin">
+              <h3>Happy clients!</h3>
+            </div>
+            <div class="cs_quote">
+              <div class="container c_thin">
+                “The environment had a real sense of innovation – the suits & ties were out, and in was the team spirit. People from different departments were talking, sharing ideas and supporting each other like one big family.”
+              </div>
+            </div>
+            <div class="container c_thin cs_quotee">
+              <div class="quotation_mark"></div>
+              <div class="cs_quotee_name">
+                Client team member
+              </div>
+            </div>
+          </div>
+          <div class="container c_mid cs_media">
+            <img src="../src/img/case_study/roche/roche_facts.jpg" alt="Digital Acceleration Program in numbers">
+          </div>
+          <div class="container-full">
+            <div class="cta_head">
+              Learn more or start a similiar project with us!
+            </div>
+            <div class="cs_contact">
+              <img src="../src/img/team/lutz.png" alt="Lutz Haase" class="owner">
+              <div class="container">
+                <b>Lutz Haase</b><br><br>
+                <a href="mailto:lutz.haase@ftwk.io">lutz.haase@ftwk.io</a> <span class="hide-small">|</span> <a href="tel:+49 30 667 637 50">+49 30 667 637 50</a>
+                <div class="cta_btn overlay-open" data-overlay="contact">
+                  Let's get in touch
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="container links_roche">
+            <div class="cta_head">
+              Hungry for more?
+            </div>
+            <div class="cs_grid">
+              <a href="case_study_boip" class="cs_item" dev-link>
+                <div class="cs_titlebox" style="background-color: rgb(10, 204, 151);">
+                  <div class="cs_title">Bayer Open Innovation Portal:<br>A home for external innovation</div>
+                  <div class="cs_link">
+                    <div class="inner">See case study</div>
+                  </div>
+                </div>
+                <div class="cs_imagebox">
+                  <img class="cs_image" src="../src/img/case_study/boip/preview_boip.jpg" alt="">
+                </div>
+              </a>
+              <a href="case_study_corporate_innovation" class="cs_item reverse" dev-link>
+                <div class="cs_titlebox" style="background-color: rgb(15, 74, 106);">
+                  <div class="cs_title">Turning Employees into Pioneers of Digital Transformation</div>
+                  <div class="cs_link">
+                    <div class="inner">See case study</div>
+                  </div>
+                </div>
+                <div class="cs_imagebox">
+                  <img class="cs_image" src="../src/img/case_study/roche/preview_roche.jpg" alt="">
+                </div>
+              </a>
+              <a href="case_study_simapp" class="cs_item reverse" dev-link>
+                <div class="cs_titlebox" style="background-color: rgb(141, 75, 8);">
+                  <div class="cs_title">SIMAPP: Empowering sales &amp; marketing teams of a global diagnostics provider</div>
+                  <div class="cs_link">
+                    <div class="inner">See case study</div>
+                  </div>
+                </div>
+                <div class="cs_imagebox">
+                  <img class="cs_image" src="../src/img/case_study/simapp/preview_simapp.jpg" alt="">
+                </div>
+              </a>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+    <%= require('html-loader!../components/Footer/Footer.html') %>
+    <%= require('html-loader!../components/Overlays/Overlays.html') %>
+
+  </div>
+
+
+
+</body>
+</html>
